@@ -57,7 +57,7 @@ export function Home() {
                     minimumTrackTintColor='black'
                     thumbTintColor='black'
                     value={caracteres}
-                    onValueChange={(value) => setCaracteres(value.toFixed(0))}
+                    onValueChange={(value) => setCaracteres(parseInt(value))}
                 />
             </View>
 
